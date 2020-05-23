@@ -1,16 +1,14 @@
 # chatapppractice
 
-A new Flutter application.
+This app allows user to chat with strangers. Just register in the app and you user is ready for a good start. This app use cloud firestore as its backend. Main motive for this app is to get the better understanding of how to use streams and enable security rules for firestore and how collections and documents is used in it.
 
-## Getting Started
+Given below the some plugins applied int this app - 
 
-This project is a starting point for a Flutter application.
+Firebase_auth plugin to authenticate the user.
 
-A few resources to get you started if this is your first Flutter project:
+Firestore plugin to create collections, documents in firestore and fetch the same using queries like whereIn, Orderby.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Provider package for state management.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
